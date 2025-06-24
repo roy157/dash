@@ -1,6 +1,6 @@
 from flask import Blueprint, jsonify, request
 from app import db
-from app.models import Producto, Pedido, Usuario, Categoria, DetallePedido
+from app.models import Producto, Pedido, Usuario, Categoria
 from datetime import datetime, timedelta
 from sqlalchemy import func
 
